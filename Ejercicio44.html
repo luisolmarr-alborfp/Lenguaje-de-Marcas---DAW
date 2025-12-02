@@ -21,62 +21,67 @@
     <div style="background-color: white; border-radius: 5px;">
         <p><span style="font-size: x-large; font-weight: bold;">Únete a Tuenti </span><span style="color: gray;"> Todos
                 los campos son obligatorios</span></p>
+        <form>
+            <table>
+                <tr>
+                    <td>Nombre:</td>
+                    <td>
+                        <input placeholder="Nombre">
+                        <input placeholder="Apellidos">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td>
+                        <input>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Sexo:
+                    </td>
+                    <td>
+                        <input type="radio" name="sexo">Hombre
+                        <input type="radio" name="sexo">Mujer
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Fecha de nacimiento:
+                    </td>
+                    <td>
+                        <input type="date">
+                        <br>
+                        <p style="font-size: smaller; color: gray; margin-top: -1px;">La edad mínima permitida es 14.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Contraseña:</td>
+                    <td>
+                        <input type="password">
+                        <br>
+                        <a href="https://nordpass.com/es/blog/5-strong-password-ideas/"
+                            style="font-size: smaller;">Consejos
+                            para elegir una contraseña</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Número móvil:</td>
+                    <td>
+                        <input type="tel">
+                    </td>
+                </tr>
+            </table>
+            <input type="checkbox">Aceptas las <a>Condiciones de uso</a> y la <a>Política de privacidad</a> de Tuenti y
+            que
+            Tuenti te envíe comunicaciones, incluso por vía electrónica. Lee un resumen en el <a>Decálogo de las
+                Condiciones
+                de uso</a>.
 
-        <table>
-            <tr>
-                <td>Nombre:</td>
-                <td>
-                    <input placeholder="Nombre">
-                    <input placeholder="Apellidos">
-                </td>
-            </tr>
-            <tr>
-                <td>Email:</td>
-                <td>
-                    <input>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Sexo:
-                </td>
-                <td>
-                    <input type="radio" name="sexo">Hombre
-                    <input type="radio" name="sexo">Mujer
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Fecha de nacimiento:
-                </td>
-                <td>
-                    <input type="date">
-                    <br>
-                    <p style="font-size: smaller; color: gray; margin-top: -1px;">La edad mínima permitida es 14.</p>
-                </td>
-            </tr>
-            <tr>
-                <td>Contraseña:</td>
-                <td>
-                    <input type="password">
-                    <br>
-                    <a href="https://nordpass.com/es/blog/5-strong-password-ideas/" style="font-size: smaller;">Consejos
-                        para elegir una contraseña</a>
-                </td>
-            </tr>
-            <tr>
-                <td>Número móvil:</td>
-                <td>
-                    <input type="tel">
-                </td>
-            </tr>
-        </table>
-        <input type="checkbox">Aceptas las <a>Condiciones de uso</a> y la <a>Política de privacidad</a> de Tuenti y que
-        Tuenti te envíe comunicaciones, incluso por vía electrónica. Lee un resumen en el <a>Decálogo de las Condiciones
-            de uso</a>.
-
-        <br>
-        <button>¡Disfruta de Tuenti!</button>
+            <br>
+            <input type="submit">
+        </form>
     </div>
 </body>
 
